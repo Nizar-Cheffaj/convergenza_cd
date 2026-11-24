@@ -1,0 +1,41 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ===== Editor e Windows =====
+.vscode/
+Thumbs.db
+desktop.ini
+
+# ===== STAR-CCM+ =====
+*.sim
+*.sim~
+*.class
+*.log
+
+# ===== Mesh e geometrie =====
+*.ccm
+*.cas
+*.msh
+*.cgns
+*.stl
+*.stp
+*.step
+*.igs
+*.iges
+*.x_t
+
+# ===== Esportazioni e video =====
+*.case
+*.vtk
+*.vtu
+*.plt
+*.avi
+*.mp4
+
+# ===== Cartelle per i risultati pesanti =====
+risultati/
+results/
